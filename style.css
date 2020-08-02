@@ -1,0 +1,91 @@
+/* -------------------- General styling -------------------- */
+
+:root {
+  --myFontColour: #181818;
+}
+
+body {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* -------------------- Font styling -------------------- */
+
+* {
+  font-family: 'Oxygen', sans-serif;
+}
+
+p {
+  font-size: 19px;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+  font-size: 3rem;
+  color: var(--myFontColour);
+}
+
+.help {
+  font-size: 19px;
+}
+
+/* -------------------- Table styling -------------------- */
+
+.inputTable,
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.inputTable {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* -------------------- Icon styling -------------------- */
+
+.fa-question-circle {
+  margin-right: 10px;
+}
+
+/* -------------------- Button styling -------------------- */
+
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 19px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.answerButton {
+  background: #292929;
+  color: #ffffff;
+}
+
+.newButton:hover,
+.newButton:focus {
+  background-color: #e5e5e5;
+}
+
+.answerButton:hover,
+.answerButton:focus {
+  background: #181818;
+}

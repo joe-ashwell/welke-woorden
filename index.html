@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welke Woorden</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="werkwoord">
+    <h1 class="werkwoord"></h1>
+  </div>
+  <div class="inputTable">
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th title="Tegenwoordige tijd / Present tense"><i class="fa fa-question-circle"  aria-hidden="true"></i>T.T.</th>
+          <th title="Verleden tijd / Simple past tense"><i class="fa fa-question-circle" aria-hidden="true"></i>O.V.T.</th>
+          <th title="Voltooid tegenwoordige tijd / Past perfect tense"><i class="fa fa-question-circle" aria-hidden="true"></i>V.T.T.</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ik</td>
+          <td><input data-form="ik-tt" type="text"></td>
+          <td><input data-form="ik-ovt" type="text"></td>
+          <td><input data-form="ik-vtt" type="text"></td>
+        </tr>
+        <tr>
+          <td>Jij / U</td>
+          <td><input data-form="jij-tt" type="text"></td>
+          <td><input data-form="jij-ovt" type="text"></td>
+          <td><input data-form="jij-vtt" type="text"></td>
+        </tr>
+        <tr>
+          <td>Hij / Zij</td>
+          <td><input data-form="hij-tt" type="text"></td>
+          <td><input data-form="hij-ovt" type="text"></td>
+          <td><input data-form="hij-vtt" type="text"></td>
+        </tr>
+        <tr>
+          <td>Wij / Zij / Jullie</td>
+          <td><input data-form="wij-tt" type="text"></td>
+          <td><input data-form="wij-ovt" type="text"></td>
+          <td><input data-form="wij-vtt" type="text"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="buttons">
+    <button class="newButton">Nieuw woord</button>
+    <button class="answerButton">Antwoord geven</button>
+  </div>
+  <script src="woordenboek.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
