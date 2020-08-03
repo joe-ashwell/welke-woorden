@@ -19,6 +19,7 @@ html {
 
 * {
   font-family: 'Oxygen', sans-serif;
+  font-size: 19px;
 }
 
 p {
@@ -88,4 +89,16 @@ button {
 .answerButton:hover,
 .answerButton:focus {
   background: #181818;
+}
+
+/* -------------------- Score styling -------------------- */
+
+.wrong {
+  color: #A94442;
+  background-color: #F2DEDE;
+}
+
+.correct {
+  color: #3C763D;
+  background-color: #DFF0D8;
 }
