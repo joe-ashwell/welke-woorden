@@ -1,6 +1,6 @@
 const werkwoordenList = [
 
-  // Modale werkwoorden
+  // MODALE werkwoorden
 
   {
     // TT
@@ -28,10 +28,10 @@ const werkwoordenList = [
     hijtt: 'mag',
     wijtt: 'mogen',
     // OVT
-    ikovt: 'mogt',
-    jijovt: 'mogt',
-    hijovt: 'mogt',
-    wijovt: 'mogten',
+    ikovt: 'mocht',
+    jijovt: 'mocht',
+    hijovt: 'mocht',
+    wijovt: 'mochten',
     // VTT
     ikvtt: 'gemogen',
     jijvtt: 'gemogen',
@@ -71,32 +71,15 @@ const werkwoordenList = [
     hijovt: 'zoude',
     wijovt: 'zouden',
     // VTT
-    ikvtt: 'na',
-    jijvtt: 'na',
-    hijvtt: 'na',
-    wijvtt: 'na',
+    ikvtt: '',
+    jijvtt: '',
+    hijvtt: '',
+    wijvtt: '',
     // Engels
     engels: 'shall/will'
   },
-  {
-    // TT
-    iktt: 'zou',
-    jijtt: 'zou',
-    hijtt: 'zou',
-    wijtt: 'zouden',
-    // OVT
-    ikovt: 'na',
-    jijovt: 'na',
-    hijovt: 'na',
-    wijovt: 'na',
-    // VTT
-    ikvtt: 'na',
-    jijvtt: 'na',
-    hijvtt: 'na',
-    wijvtt: 'na',
-    // Engels
-    engels: 'should'
-  },
+
+  // IRREGULAR werkwoorden
 
   {
     // TT
@@ -174,5 +157,122 @@ const werkwoordenList = [
     // Engels
     engels: 'to be'
   },
+
+  // REGULAR werkwoorden
   
+  {
+    // TT
+    iktt: 'antwoord',
+    jijtt: 'antwoordt',
+    hijtt: 'antwoordt',
+    wijtt: 'antwoorden',
+    // OVT
+    ikovt: 'antwoordde',
+    jijovt: 'antwoordde',
+    hijovt: 'antwoordde',
+    wijovt: 'antwoordden',
+    // VTT
+    ikvtt: 'geantwoord',
+    jijvtt: 'geantwoord',
+    hijvtt: 'geantwoord',
+    wijvtt: 'geantwoord',
+    // Engels
+    engels: 'to answer'
+  },
+  {
+    // TT
+    iktt: 'was af',
+    jijtt: 'wast af',
+    hijtt: 'wast af',
+    wijtt: 'wassen af',
+    // OVT
+    ikovt: 'waste af',
+    jijovt: 'waste af',
+    hijovt: 'waste af',
+    wijovt: 'wasten af',
+    // VTT
+    ikvtt: 'afgewassen',
+    jijvtt: 'afgewassen',
+    hijvtt: 'afgewassen',
+    wijvtt: 'afgewassen',
+    // Engels
+    engels: 'to wash up'
+  },
+  {
+    // TT
+    iktt: 'droog af',
+    jijtt: 'droogt af',
+    hijtt: 'droogt af',
+    wijtt: 'drogen af',
+    // OVT
+    ikovt: 'droogde af',
+    jijovt: 'droogde af',
+    hijovt: 'droogde af',
+    wijovt: 'droogden af',
+    // VTT
+    ikvtt: 'afgedroogd',
+    jijvtt: 'afgedroogd',
+    hijvtt: 'afgedroogd',
+    wijvtt: 'afgedroogd',
+    // Engels
+    engels: 'to dry up'
+  },
+  {
+    // TT
+    iktt: 'doe aan',
+    jijtt: 'doet aan',
+    hijtt: 'doet aan',
+    wijtt: 'doen aan',
+    // OVT
+    ikovt: 'deed aan',
+    jijovt: 'deed aan',
+    hijovt: 'deed aan',
+    wijovt: 'deden aan',
+    // VTT
+    ikvtt: 'aangedaan',
+    jijvtt: 'aangedaan',
+    hijvtt: 'aangedaan',
+    wijvtt: 'aangedaan',
+    // Engels
+    engels: 'to turn on'
+  },
+  {
+    // TT
+    iktt: 'trek aan',
+    jijtt: 'trekt aan',
+    hijtt: 'trekt aan',
+    wijtt: 'trekken aan',
+    // OVT
+    ikovt: 'trok aan',
+    jijovt: 'trok aan',
+    hijovt: 'trok aan',
+    wijovt: 'trokken aan',
+    // VTT
+    ikvtt: 'aangetrokken',
+    jijvtt: 'aangetrokken',
+    hijvtt: 'aangetrokken',
+    wijvtt: 'aangetrokken',
+    // Engels
+    engels: 'to put on clothing'
+  },
+  {
+    // TT
+    iktt: 'boek',
+    jijtt: 'boekt',
+    hijtt: 'boekt',
+    wijtt: 'boeken',
+    // OVT
+    ikovt: 'boekte',
+    jijovt: 'boekte',
+    hijovt: 'boekte',
+    wijovt: 'boekten',
+    // VTT
+    ikvtt: 'geboekt',
+    jijvtt: 'geboekt',
+    hijvtt: 'geboekt',
+    wijvtt: 'geboekt',
+    // Engels
+    engels: 'to book'
+  },
 ];
+

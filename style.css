@@ -51,6 +51,11 @@ h1 {
   margin-bottom: 2rem;
 }
 
+input {
+  border: #E5E5E5 1px solid;
+  padding: 1rem;
+}
+
 /* -------------------- Icon styling -------------------- */
 
 .fa-question-circle {
