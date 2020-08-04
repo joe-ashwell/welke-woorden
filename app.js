@@ -42,10 +42,23 @@ const getWord = () => {
   // Takes the random index number generated and uses it to select a word & set header
   werkwoordHeader.innerHTML = `Werkwoord: ${werkwoordenList[werkwoordChoice].infin} <span class="help">(${werkwoordenList[werkwoordChoice].engels})</span>`;
 
+  wordInput.forEach(item => {
+
+    // Need to target the index value of that random word generation
+    const index = randomMemory[randomMemory.length - 1];
+    // Gets the key using the data-* attribute in the HTML
+    const key = item.dataset.form;
+    if ( werkwoordenList[index][key] === "" ) {
+      item.classList.add("blocked");
+    } else {
+      item.classList.remove("blocked");
+    }
+
+  })
+      
 }
 
 const compareAnswer = () => {
-
 
   wordInput.forEach(item => {
 
@@ -55,7 +68,6 @@ const compareAnswer = () => {
     const key = item.dataset.form;
 
     // Compares input value against the correct answer
-    
     if ( item.value === werkwoordenList[index][key]  ) {
       item.classList.add("correct");
       item.classList.remove("wrong");
@@ -109,6 +121,7 @@ clearButton.addEventListener('click', () => {
     item.classList.remove("wrong");
     item.classList.remove("correct");
     item.classList.remove("showAnswer");
+    item.classList.remove("blocked");
 
   });
 
