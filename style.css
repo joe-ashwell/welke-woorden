@@ -96,7 +96,13 @@ button {
   background: #181818;
 }
 
+
 /* -------------------- Score styling -------------------- */
+
+.showAnswer {
+  color: #31708F;
+  background-color: #D9EDF7;
+}
 
 .wrong {
   color: #A94442;
@@ -106,4 +112,8 @@ button {
 .correct {
   color: #3C763D;
   background-color: #DFF0D8;
+}
+
+.blocked {
+  background-color: #181818;
 }

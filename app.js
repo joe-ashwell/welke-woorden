@@ -26,6 +26,7 @@ const wordInput = document.querySelectorAll('.wordInput');
 const newButton = document.querySelector('.newButton');
 const answerButton = document.querySelector('.answerButton');
 const helpButton = document.querySelector('.helpButton');
+const clearButton = document.querySelector('.clearButton');
 
 // Keeps track of the index number generated
 let randomMemory = [];
@@ -39,134 +40,31 @@ const getWord = () => {
   randomMemory.push(werkwoordChoice);
 
   // Takes the random index number generated and uses it to select a word & set header
-  werkwoordHeader.innerHTML = `Werkwoord: ${werkwoordenList[werkwoordChoice].wijtt} <span class="help">(${werkwoordenList[werkwoordChoice].engels})</span>`;
+  werkwoordHeader.innerHTML = `Werkwoord: ${werkwoordenList[werkwoordChoice].infin} <span class="help">(${werkwoordenList[werkwoordChoice].engels})</span>`;
 
 }
 
 const compareAnswer = () => {
 
-  // To check TT fields
-  if ( iktt.value.toLowerCase() === werkwoordenList[randomMemory[randomMemory.length -1]].iktt ) {
-    iktt.classList.add("correct");
-    iktt.classList.remove("wrong");
-    // iktt.value += "  ✓";
-  } else {
-    iktt.classList.add("wrong");
-    iktt.classList.remove("correct");
-    // iktt.value += "  ✗";
-  }
 
-  if ( jijtt.value.toLowerCase() === werkwoordenList[randomMemory[randomMemory.length -1]].jijtt ) {
-    jijtt.classList.add("correct");
-    jijtt.classList.remove("wrong");
-    // jijtt.value += "  ✓";
-  } else {
-    jijtt.classList.add("wrong");
-    jijtt.classList.remove("correct");
-    // jijtt.value += "  ✗";
-  }
+  wordInput.forEach(item => {
 
-  if ( hijtt.value.toLowerCase() === werkwoordenList[randomMemory[randomMemory.length -1]].hijtt ) {
-    hijtt.classList.add("correct");
-    hijtt.classList.remove("wrong");
-    // hijtt.value += "  ✓";
-  } else {
-    hijtt.classList.add("wrong");
-    hijtt.classList.remove("correct");
-    // hijtt.value += "  ✗";
-  }
+    // Need to target the index value of that random word generation
+    const index = randomMemory[randomMemory.length - 1];
+    // Gets the key using the data-* attribute in the HTML
+    const key = item.dataset.form;
 
-  if ( wijtt.value.toLowerCase() === werkwoordenList[randomMemory[randomMemory.length -1]].wijtt ) {
-    wijtt.classList.add("correct");
-    wijtt.classList.remove("wrong");
-    // wijtt.value += "  ✓";
-  } else {
-    wijtt.classList.add("wrong");
-    wijtt.classList.remove("correct");
-    // wijtt.value += "  ✗";
-  }
+    // Compares input value against the correct answer
+    
+    if ( item.value === werkwoordenList[index][key]  ) {
+      item.classList.add("correct");
+      item.classList.remove("wrong");
+    } else {
+      item.classList.add("wrong");
+      item.classList.remove("correct");
+    }
 
-  // To check OVT fields
-  if ( ikovt.value.toLowerCase() === werkwoordenList[randomMemory[randomMemory.length -1]].ikovt ) {
-    ikovt.classList.add("correct");
-    ikovt.classList.remove("wrong");
-    // ikovt.value += "  ✓";
-  } else {
-    ikovt.classList.add("wrong");
-    ikovt.classList.remove("correct");
-    // ikovt.value += "  ✗";
-  }
-
-  if ( jijovt.value.toLowerCase() === werkwoordenList[randomMemory[randomMemory.length -1]].jijovt ) {
-    jijovt.classList.add("correct");
-    jijovt.classList.remove("wrong");
-    // jijovt.value += "  ✓";
-  } else {
-    jijovt.classList.add("wrong");
-    jijovt.classList.remove("correct");
-    // jijovt.value += "  ✗";
-  }
-
-  if ( hijovt.value.toLowerCase() === werkwoordenList[randomMemory[randomMemory.length -1]].hijovt ) {
-    hijovt.classList.add("correct");
-    hijovt.classList.remove("wrong");
-    // hijovt.value += "  ✓";
-  } else {
-    hijovt.classList.add("wrong");
-    hijovt.classList.remove("correct");
-    // hijovt.value += "  ✗";
-  }
-
-  if ( wijovt.value.toLowerCase() === werkwoordenList[randomMemory[randomMemory.length -1]].wijovt ) {
-    wijovt.classList.add("correct");
-    wijovt.classList.remove("wrong");
-    // wijovt.value += "  ✓";
-  } else {
-    wijovt.classList.add("wrong");
-    wijovt.classList.remove("correct");
-    // wijovt.value += "  ✗";
-  }
-
-  // To check VTT fields
-  if ( ikvtt.value.toLowerCase() === werkwoordenList[randomMemory[randomMemory.length -1]].ikvtt ) {
-    ikvtt.classList.add("correct");
-    ikvtt.classList.remove("wrong");
-    // ikvtt.value += "  ✓";
-  } else {
-    ikvtt.classList.add("wrong");
-    ikvtt.classList.remove("correct");
-    // ikvtt.value += "  ✗";
-  }
-
-  if ( jijvtt.value.toLowerCase() === werkwoordenList[randomMemory[randomMemory.length -1]].jijvtt ) {
-    jijvtt.classList.add("correct");
-    jijvtt.classList.remove("wrong");
-    // jijvtt.value += "  ✓";
-  } else {
-    jijvtt.classList.add("wrong");
-    jijvtt.classList.remove("correct");
-    // jijvtt.value += "  ✗";
-  }
-
-  if ( hijvtt.value.toLowerCase() === werkwoordenList[randomMemory[randomMemory.length -1]].hijvtt ) {
-    hijvtt.classList.add("correct");
-    hijvtt.classList.remove("wrong");
-    // hijvtt.value += "  ✓";
-  } else {
-    hijvtt.classList.add("wrong");
-    hijvtt.classList.remove("correct");
-    // hijvtt.value += "  ✗";
-  }
-
-  if ( wijvtt.value.toLowerCase() === werkwoordenList[randomMemory[randomMemory.length -1]].wijvtt ) {
-    wijvtt.classList.add("correct");
-    wijvtt.classList.remove("wrong");
-    // wijvtt.value += "  ✓";
-  } else {
-    wijvtt.classList.add("wrong");
-    wijvtt.classList.remove("correct");
-    // wijvtt.value += "  ✗";
-  }
+    });
 
 }
 
@@ -189,6 +87,7 @@ newButton.addEventListener('click', () => {
     item.value = "";
     item.classList.remove("wrong");
     item.classList.remove("correct");
+    item.classList.remove("showAnswer");
 
   });
 
@@ -202,12 +101,18 @@ answerButton.addEventListener('click', () => {
 
 });
 
-// window.addEventListener('load', () => {
+clearButton.addEventListener('click', () => {
 
-//   werkwoord = Math.floor(Math.random() * werkwoordenList.length );
-//   console.log(werkwoord);
+  wordInput.forEach(item => {
 
-// });
+    item.value = "";
+    item.classList.remove("wrong");
+    item.classList.remove("correct");
+    item.classList.remove("showAnswer");
+
+  });
+
+});
 
 // Allows user to submit answer on enter as opposed to having to press the button each time
 wordInput.forEach(item => {
@@ -221,15 +126,26 @@ wordInput.forEach(item => {
   
   });
 
-})
+});
 
+// Targets help button to show answers to help users
 helpButton.addEventListener('click', () => {
 
   wordInput.forEach(item => {
 
-    test = item.dataset.form;
-    item.value = test;
+    // Need to target the index value of that random word generation
+    const index = randomMemory[randomMemory.length - 1];
+    // Gets the key using the data-* attribute in the HTML
+    const key = item.dataset.form;
+    // Puts them together to get every value of each input
+    item.value = werkwoordenList[index][key] 
+    item.classList.add("showAnswer");
+    item.classList.remove("wrong");
+    item.classList.remove("correct");
 
-  });
+    });
 
-})
+});
+
+
+

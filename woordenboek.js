@@ -19,7 +19,9 @@ const werkwoordenList = [
     hijvtt: 'gekund',
     wijvtt: 'gekund',
     // Engels
-    engels: 'can'
+    engels: 'can',
+    // Infinitief
+    infin: 'kunnen'
   },
   {
     // TT
@@ -38,7 +40,9 @@ const werkwoordenList = [
     hijvtt: 'gemogen',
     wijvtt: 'gemogen',
     // Engels
-    engels: 'may'
+    engels: 'may',
+    // Infinitief
+    infin: 'mogen'
   },
   {
     // TT
@@ -57,7 +61,9 @@ const werkwoordenList = [
     hijvtt: 'gewild',
     wijvtt: 'gewild',
     // Engels
-    engels: 'to want'
+    engels: 'to want',
+    // Infinitief
+    infin: 'willen'
   },
   {
     // TT
@@ -76,7 +82,9 @@ const werkwoordenList = [
     hijvtt: '',
     wijvtt: '',
     // Engels
-    engels: 'shall/will'
+    engels: 'shall/will',
+    // Infinitief
+    infin: 'zullen'
   },
 
   // IRREGULAR werkwoorden
@@ -98,7 +106,9 @@ const werkwoordenList = [
     hijvtt: 'gelopen',
     wijvtt: 'gelopen',
     // Engels
-    engels: 'to walk'
+    engels: 'to walk',
+    // Infinitief
+    infin: 'lopen'
   },
   {
     // TT
@@ -117,7 +127,9 @@ const werkwoordenList = [
     hijvtt: 'gehad',
     wijvtt: 'gehad',
     // Engels
-    engels: 'to have'
+    engels: 'to have',
+    // Infinitief
+    infin: 'hebben'
   },
   {
     // TT
@@ -136,7 +148,9 @@ const werkwoordenList = [
     hijvtt: 'gegaan',
     wijvtt: 'gegaan',
     // Engels
-    engels: 'to go'
+    engels: 'to go',
+    // Infinitief
+    infin: 'gaan'
   },
   {
     // TT
@@ -155,7 +169,9 @@ const werkwoordenList = [
     hijvtt: 'geweest',
     wijvtt: 'geweest',
     // Engels
-    engels: 'to be'
+    engels: 'to be',
+    // Infinitief
+    infin: 'zijn'
   },
 
   // REGULAR werkwoorden
@@ -177,7 +193,9 @@ const werkwoordenList = [
     hijvtt: 'geantwoord',
     wijvtt: 'geantwoord',
     // Engels
-    engels: 'to answer'
+    engels: 'to answer',
+    // Infinitief
+    infin: 'antwoorden'
   },
   {
     // TT
@@ -196,7 +214,9 @@ const werkwoordenList = [
     hijvtt: 'afgewassen',
     wijvtt: 'afgewassen',
     // Engels
-    engels: 'to wash up'
+    engels: 'to wash up',
+    // Infinitief
+    infin: 'afwassen'
   },
   {
     // TT
@@ -215,7 +235,9 @@ const werkwoordenList = [
     hijvtt: 'afgedroogd',
     wijvtt: 'afgedroogd',
     // Engels
-    engels: 'to dry up'
+    engels: 'to dry up',
+    // Infinitief
+    infin: 'afdrogen'
   },
   {
     // TT
@@ -234,7 +256,9 @@ const werkwoordenList = [
     hijvtt: 'aangedaan',
     wijvtt: 'aangedaan',
     // Engels
-    engels: 'to turn on'
+    engels: 'to turn on',
+    // Infinitief
+    infin: 'aandoen'
   },
   {
     // TT
@@ -253,7 +277,9 @@ const werkwoordenList = [
     hijvtt: 'aangetrokken',
     wijvtt: 'aangetrokken',
     // Engels
-    engels: 'to put on clothing'
+    engels: 'to put on clothing',
+    // Infinitief
+    infin: 'aantrekken'
   },
   {
     // TT
@@ -272,7 +298,9 @@ const werkwoordenList = [
     hijvtt: 'geboekt',
     wijvtt: 'geboekt',
     // Engels
-    engels: 'to book'
+    engels: 'to book',
+    // Infinitief
+    infin: 'boeken'
   },
 ];
 
