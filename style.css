@@ -56,6 +56,8 @@ input {
   padding: 1rem;
 }
 
+
+
 /* -------------------- Icon styling -------------------- */
 
 .fa-question-circle {
@@ -71,8 +73,6 @@ button {
   margin-left: 5px;
   margin-right: 5px;
   text-decoration: none;
-  font-family: 'Oxygen', sans-serif;
-  font-size: 19px;
   cursor: pointer;
   text-align: center;
   transition: background 250ms ease-in-out, 

@@ -25,6 +25,7 @@ const wordInput = document.querySelectorAll('.wordInput');
 // Targets the buttons
 const newButton = document.querySelector('.newButton');
 const answerButton = document.querySelector('.answerButton');
+const helpButton = document.querySelector('.helpButton');
 
 // Keeps track of the index number generated
 let randomMemory = [];
@@ -218,6 +219,17 @@ wordInput.forEach(item => {
       answerButton.click();
     }
   
+  });
+
+})
+
+helpButton.addEventListener('click', () => {
+
+  wordInput.forEach(item => {
+
+    test = item.dataset.form;
+    item.value = test;
+
   });
 
 })
