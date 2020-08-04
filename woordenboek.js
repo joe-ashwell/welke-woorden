@@ -14,10 +14,10 @@ const werkwoordenList = [
     hijovt: 'kon',
     wijovt: 'konden',
     // VTT
-    ikvtt: 'gekund',
-    jijvtt: 'gekund',
-    hijvtt: 'gekund',
-    wijvtt: 'gekund',
+    ikvtt: 'heb gekund',
+    jijvtt: 'hebt gekund',
+    hijvtt: 'heeft gekund',
+    wijvtt: 'hebben gekund',
     // Engels
     engels: 'can',
     // Infinitief
@@ -35,10 +35,10 @@ const werkwoordenList = [
     hijovt: 'mocht',
     wijovt: 'mochten',
     // VTT
-    ikvtt: 'gemogen',
-    jijvtt: 'gemogen',
-    hijvtt: 'gemogen',
-    wijvtt: 'gemogen',
+    ikvtt: 'heb gemogen',
+    jijvtt: 'hebt gemogen',
+    hijvtt: 'heeft gemogen',
+    wijvtt: 'hebben gemogen',
     // Engels
     engels: 'may',
     // Infinitief
@@ -56,10 +56,10 @@ const werkwoordenList = [
     hijovt: 'wilde',
     wijovt: 'wilden',
     // VTT
-    ikvtt: 'gewild',
-    jijvtt: 'gewild',
-    hijvtt: 'gewild',
-    wijvtt: 'gewild',
+    ikvtt: 'ben/heb gewild',
+    jijvtt: 'bent/hebt gewild',
+    hijvtt: 'is/heeft gewild',
+    wijvtt: 'zijn/hebben gewild',
     // Engels
     engels: 'to want',
     // Infinitief
@@ -101,10 +101,10 @@ const werkwoordenList = [
     hijovt: 'liep',
     wijovt: 'liepen',
     // VTT
-    ikvtt: 'gelopen',
-    jijvtt: 'gelopen',
-    hijvtt: 'gelopen',
-    wijvtt: 'gelopen',
+    ikvtt: 'ben/heb gelopen',
+    jijvtt: 'bent/hebt gelopen',
+    hijvtt: 'is/heeft gelopen',
+    wijvtt: 'zijn/hebben gelopen',
     // Engels
     engels: 'to walk',
     // Infinitief
@@ -122,10 +122,10 @@ const werkwoordenList = [
     hijovt: 'had',
     wijovt: 'hadden',
     // VTT
-    ikvtt: 'gehad',
-    jijvtt: 'gehad',
-    hijvtt: 'gehad',
-    wijvtt: 'gehad',
+    ikvtt: 'heb gehad',
+    jijvtt: 'hebt gehad',
+    hijvtt: 'heeft gehad',
+    wijvtt: 'hebben gehad',
     // Engels
     engels: 'to have',
     // Infinitief
@@ -143,10 +143,10 @@ const werkwoordenList = [
     hijovt: 'ging',
     wijovt: 'gingen',
     // VTT
-    ikvtt: 'gegaan',
-    jijvtt: 'gegaan',
-    hijvtt: 'gegaan',
-    wijvtt: 'gegaan',
+    ikvtt: 'ben gegaan',
+    jijvtt: 'bent gegaan',
+    hijvtt: 'is gegaan',
+    wijvtt: 'zijn gegaan',
     // Engels
     engels: 'to go',
     // Infinitief
@@ -164,10 +164,10 @@ const werkwoordenList = [
     hijovt: 'was',
     wijovt: 'waren',
     // VTT
-    ikvtt: 'geweest',
-    jijvtt: 'geweest',
-    hijvtt: 'geweest',
-    wijvtt: 'geweest',
+    ikvtt: 'ben geweest',
+    jijvtt: 'bent geweest',
+    hijvtt: 'is geweest',
+    wijvtt: 'zijn geweest',
     // Engels
     engels: 'to be',
     // Infinitief
@@ -188,10 +188,10 @@ const werkwoordenList = [
     hijovt: 'antwoordde',
     wijovt: 'antwoordden',
     // VTT
-    ikvtt: 'geantwoord',
-    jijvtt: 'geantwoord',
-    hijvtt: 'geantwoord',
-    wijvtt: 'geantwoord',
+    ikvtt: 'heb geantwoord',
+    jijvtt: 'hebt geantwoord',
+    hijvtt: 'heeft geantwoord',
+    wijvtt: 'hebben geantwoord',
     // Engels
     engels: 'to answer',
     // Infinitief
@@ -209,10 +209,10 @@ const werkwoordenList = [
     hijovt: 'waste af',
     wijovt: 'wasten af',
     // VTT
-    ikvtt: 'afgewassen',
-    jijvtt: 'afgewassen',
-    hijvtt: 'afgewassen',
-    wijvtt: 'afgewassen',
+    ikvtt: 'heb afgewassen',
+    jijvtt: 'hebt afgewassen',
+    hijvtt: 'heeft afgewassen',
+    wijvtt: 'hebben afgewassen',
     // Engels
     engels: 'to wash up',
     // Infinitief
@@ -230,10 +230,10 @@ const werkwoordenList = [
     hijovt: 'droogde af',
     wijovt: 'droogden af',
     // VTT
-    ikvtt: 'afgedroogd',
-    jijvtt: 'afgedroogd',
-    hijvtt: 'afgedroogd',
-    wijvtt: 'afgedroogd',
+    ikvtt: 'heb afgedroogd',
+    jijvtt: 'hebt afgedroogd',
+    hijvtt: 'heeft afgedroogd',
+    wijvtt: 'hebben afgedroogd',
     // Engels
     engels: 'to dry up',
     // Infinitief
@@ -251,10 +251,10 @@ const werkwoordenList = [
     hijovt: 'deed aan',
     wijovt: 'deden aan',
     // VTT
-    ikvtt: 'aangedaan',
-    jijvtt: 'aangedaan',
-    hijvtt: 'aangedaan',
-    wijvtt: 'aangedaan',
+    ikvtt: 'heb aangedaan',
+    jijvtt: 'hebt aangedaan',
+    hijvtt: 'heeft aangedaan',
+    wijvtt: 'hebben aangedaan',
     // Engels
     engels: 'to turn on',
     // Infinitief
@@ -272,10 +272,10 @@ const werkwoordenList = [
     hijovt: 'trok aan',
     wijovt: 'trokken aan',
     // VTT
-    ikvtt: 'aangetrokken',
-    jijvtt: 'aangetrokken',
-    hijvtt: 'aangetrokken',
-    wijvtt: 'aangetrokken',
+    ikvtt: 'heb aangetrokken',
+    jijvtt: 'hebt aangetrokken',
+    hijvtt: 'heeft aangetrokken',
+    wijvtt: 'hebben aangetrokken',
     // Engels
     engels: 'to put on clothing',
     // Infinitief
@@ -293,10 +293,10 @@ const werkwoordenList = [
     hijovt: 'boekte',
     wijovt: 'boekten',
     // VTT
-    ikvtt: 'geboekt',
-    jijvtt: 'geboekt',
-    hijvtt: 'geboekt',
-    wijvtt: 'geboekt',
+    ikvtt: 'heb geboekt',
+    jijvtt: 'hebt geboekt',
+    hijvtt: 'heeft geboekt',
+    wijvtt: 'hebben geboekt',
     // Engels
     engels: 'to book',
     // Infinitief
