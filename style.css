@@ -15,6 +15,10 @@ html {
   width: 100%;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 /* -------------------- Font styling -------------------- */
 
 * {
@@ -37,26 +41,35 @@ h1 {
   font-size: 19px;
 }
 
+@media (max-width: 767px) {
+
+  h1 {
+    font-size: 2rem;
+  }
+
+}
+
 /* -------------------- Table styling -------------------- */
-
-.inputTable,
-.buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;  
-}
-
-.inputTable {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
 
 input {
   border: #E5E5E5 1px solid;
   padding: 1rem;
 }
 
+.inputTable {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
 
+table {
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+tr > td:first-of-type {
+  min-width: 7rem;
+}
 
 /* -------------------- Icon styling -------------------- */
 
@@ -96,8 +109,27 @@ button {
   background: #181818;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-/* -------------------- Score styling -------------------- */
+@media only screen and (max-width: 767px) {
+
+  .buttons {
+    display: block;
+  }
+
+  button {
+    display: block;
+    width: 80vw;
+    margin: 1rem auto;
+  }
+
+}
+
+/* -------------------- Answer styling -------------------- */
 
 .showAnswer {
   color: #31708F;

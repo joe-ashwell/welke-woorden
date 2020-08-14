@@ -9,53 +9,55 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="werkwoord">
-    <h1 class="werkwoord"></h1>
-  </div>
-  <div class="inputTable">
-    <table>
-      <thead>
-        <tr>
-          <th></th>
-          <th title="Tegenwoordige tijd / Present tense"><i class="fa fa-question-circle"  aria-hidden="true"></i>T.T.</th>
-          <th title="Verleden tijd / Simple past tense"><i class="fa fa-question-circle" aria-hidden="true"></i>O.V.T.</th>
-          <th title="Voltooid tegenwoordige tijd / Past perfect tense"><i class="fa fa-question-circle" aria-hidden="true"></i>V.T.T.</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Ik</td>
-          <td><input class="wordInput" data-form="iktt" type="text" placeholder="e.g. werk"></td>
-          <td><input class="wordInput" data-form="ikovt" type="text" placeholder="e.g. werkte"></td>
-          <td><input class="wordInput" data-form="ikvtt" type="text" placeholder="e.g. heb gewerkt"></td>
-        </tr>
-        <tr>
-          <td>Jij / U</td>
-          <td><input class="wordInput" data-form="jijtt" type="text"></td>
-          <td><input class="wordInput" data-form="jijovt" type="text"></td>
-          <td><input class="wordInput" data-form="jijvtt" type="text"></td>
-        </tr>
-        <tr>
-          <td>Hij / Zij</td>
-          <td><input class="wordInput" data-form="hijtt" type="text"></td>
-          <td><input class="wordInput" data-form="hijovt" type="text"></td>
-          <td><input class="wordInput" data-form="hijvtt" type="text"></td>
-        </tr>
-        <tr>
-          <td>Wij / Zij / Jullie</td>
-          <td><input class="wordInput" data-form="wijtt" type="text"></td>
-          <td><input class="wordInput" data-form="wijovt" type="text"></td>
-          <td><input class="wordInput" data-form="wijvtt" type="text"></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="buttons">
-    <button class="answerButton">Antwoord geven</button>
-    <button class="newButton">Nieuw woord</button>    
-    <button class="helpButton">Hulp nodig</button>
-    <button class="clearButton">Opnieuw</button>
-  </div>
+  <main>
+    <div class="werkwoord">
+      <h1 class="werkwoord"></h1>
+    </div>
+    <div class="inputTable">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th title="Tegenwoordige tijd / Present tense"><i class="fa fa-question-circle"  aria-hidden="true"></i>T.T.</th>
+            <th title="Verleden tijd / Simple past tense"><i class="fa fa-question-circle" aria-hidden="true"></i>O.V.T.</th>
+            <th title="Voltooid tegenwoordige tijd / Past perfect tense"><i class="fa fa-question-circle" aria-hidden="true"></i>V.T.T.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ik</td>
+            <td><input class="wordInput" data-form="iktt" type="text" placeholder="e.g. werk"></td>
+            <td><input class="wordInput" data-form="ikovt" type="text" placeholder="e.g. werkte"></td>
+            <td><input class="wordInput" data-form="ikvtt" type="text" placeholder="e.g. heb gewerkt"></td>
+          </tr>
+          <tr>
+            <td>Jij / U</td>
+            <td><input class="wordInput" data-form="jijtt" type="text"></td>
+            <td><input class="wordInput" data-form="jijovt" type="text"></td>
+            <td><input class="wordInput" data-form="jijvtt" type="text"></td>
+          </tr>
+          <tr>
+            <td>Hij / Zij</td>
+            <td><input class="wordInput" data-form="hijtt" type="text"></td>
+            <td><input class="wordInput" data-form="hijovt" type="text"></td>
+            <td><input class="wordInput" data-form="hijvtt" type="text"></td>
+          </tr>
+          <tr>
+            <td>Wij / Zij / Jullie</td>
+            <td><input class="wordInput" data-form="wijtt" type="text"></td>
+            <td><input class="wordInput" data-form="wijovt" type="text"></td>
+            <td><input class="wordInput" data-form="wijvtt" type="text"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="buttons">
+      <button class="answerButton">Antwoord geven</button>
+      <button class="newButton">Nieuw woord</button>    
+      <button class="helpButton">Hulp nodig</button>
+      <button class="clearButton">Opnieuw</button>
+    </div>
+  </main>
   <script src="woordenboek.js"></script>
   <script src="app.js"></script>
 </body>

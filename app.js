@@ -64,7 +64,7 @@ const compareAnswer = () => {
 
     // Need to target the index value of that random word generation
     const index = randomMemory[randomMemory.length - 1];
-    // Gets the key using the data-* attribute in the HTML
+    // Gets the key using the data-* attribute
     const key = item.dataset.form;
 
     // Compares input value against the correct answer
