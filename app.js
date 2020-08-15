@@ -68,7 +68,7 @@ const compareAnswer = () => {
     const key = item.dataset.form;
 
     // Compares input value against the correct answer
-    if ( item.value === werkwoordenList[index][key]  ) {
+    if ( item.value.toLowerCase() === werkwoordenList[index][key]  ) {
       item.classList.add("correct");
       item.classList.remove("wrong");
     } else {
