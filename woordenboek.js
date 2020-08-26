@@ -21,7 +21,9 @@ const werkwoordenList = [
     // Engels
     engels: 'can',
     // Infinitief
-    infin: 'kunnen'
+    infin: 'kunnen',
+    // Type
+    type: 'modal'
   },
   {
     // TT
@@ -42,7 +44,9 @@ const werkwoordenList = [
     // Engels
     engels: 'may',
     // Infinitief
-    infin: 'mogen'
+    infin: 'mogen',
+    // Type
+    type: 'modal'
   },
   {
     // TT
@@ -63,7 +67,9 @@ const werkwoordenList = [
     // Engels
     engels: 'must',
     // Infinitief
-    infin: 'moeten'
+    infin: 'moeten',
+    // Type
+    type: 'modal'
   },
   {
     // TT
@@ -84,7 +90,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to want',
     // Infinitief
-    infin: 'willen'
+    infin: 'willen',
+    // Type
+    type: 'modal'
   },
   {
     // TT
@@ -105,7 +113,9 @@ const werkwoordenList = [
     // Engels
     engels: 'shall/will',
     // Infinitief
-    infin: 'zullen'
+    infin: 'zullen',
+    // Type
+    type: 'modal'
   },
 
   // IRREGULAR werkwoorden
@@ -131,7 +141,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to begin',
     // Infinitief
-    infin: 'beginnen'
+    infin: 'beginnen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -152,7 +164,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to move',
     // Infinitief
-    infin: 'bewegen'
+    infin: 'bewegen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -173,7 +187,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to watch',
     // Infinitief
-    infin: 'bekijken'
+    infin: 'bekijken',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -194,7 +210,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to offer',
     // Infinitief
-    infin: 'bieden'
+    infin: 'bieden',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -215,7 +233,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to turn out',
     // Infinitief
-    infin: 'blijken'
+    infin: 'blijken',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -236,7 +256,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to stay',
     // Infinitief
-    infin: 'blijven'
+    infin: 'blijven',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -257,7 +279,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to break',
     // Infinitief
-    infin: 'breken'
+    infin: 'breken',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -278,7 +302,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to bring',
     // Infinitief
-    infin: 'brengen'
+    infin: 'brengen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -299,7 +325,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to think',
     // Infinitief
-    infin: 'denken'
+    infin: 'denken',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -320,7 +348,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to do',
     // Infinitief
-    infin: 'doen'
+    infin: 'doen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -341,7 +371,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to wear',
     // Infinitief
-    infin: 'dragen'
+    infin: 'dragen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -362,7 +394,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to drink',
     // Infinitief
-    infin: 'drinken'
+    infin: 'drinken',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -383,7 +417,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to eat',
     // Infinitief
-    infin: 'eten'
+    infin: 'eten',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -404,7 +440,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to give',
     // Infinitief
-    infin: 'geven'
+    infin: 'geven',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -425,7 +463,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to grab',
     // Infinitief
-    infin: 'grijpen'
+    infin: 'grijpen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -446,7 +486,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to hang',
     // Infinitief
-    infin: 'hangen'
+    infin: 'hangen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -467,7 +509,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to help',
     // Infinitief
-    infin: 'helpen'
+    infin: 'helpen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -488,7 +532,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to choose',
     // Infinitief
-    infin: 'kiezen'
+    infin: 'kiezen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -509,7 +555,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to buy',
     // Infinitief
-    infin: 'kopen'
+    infin: 'kopen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -530,7 +578,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to get',
     // Infinitief
-    infin: 'krijgen'
+    infin: 'krijgen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -551,7 +601,9 @@ const werkwoordenList = [
     // Engels
     engels: '*to let*',
     // Infinitief
-    infin: 'laten'
+    infin: 'laten',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -572,7 +624,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to read',
     // Infinitief
-    infin: 'lezen'
+    infin: 'lezen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -593,7 +647,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to lay',
     // Infinitief
-    infin: 'liggen'
+    infin: 'liggen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -614,7 +670,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to measure',
     // Infinitief
-    infin: 'meten'
+    infin: 'meten',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -635,7 +693,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to take',
     // Infinitief
-    infin: 'nemen'
+    infin: 'nemen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -656,7 +716,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to save/store',
     // Infinitief
-    infin: 'opslaan'
+    infin: 'opslaan',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -677,7 +739,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to ride/drive',
     // Infinitief
-    infin: 'rijden'
+    infin: 'rijden',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -698,7 +762,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to call',
     // Infinitief
-    infin: 'roepen'
+    infin: 'roepen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -719,7 +785,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to smell',
     // Infinitief
-    infin: 'ruiken'
+    infin: 'ruiken',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -740,7 +808,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to shoot',
     // Infinitief
-    infin: 'schieten'
+    infin: 'schieten',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -761,7 +831,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to write',
     // Infinitief
-    infin: 'schrijven'
+    infin: 'schrijven',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -782,7 +854,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to slide',
     // Infinitief
-    infin: 'schuiven'
+    infin: 'schuiven',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -803,7 +877,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to hit',
     // Infinitief
-    infin: 'slaan'
+    infin: 'slaan',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -824,7 +900,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to sleep',
     // Infinitief
-    infin: 'slapen'
+    infin: 'slapen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -845,7 +923,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to close',
     // Infinitief
-    infin: 'sluiten'
+    infin: 'sluiten',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -866,7 +946,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to cut',
     // Infinitief
-    infin: 'snijden'
+    infin: 'snijden',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -887,7 +969,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to speak',
     // Infinitief
-    infin: 'spreken'
+    infin: 'spreken',
+    // Type
+    type: 'irregular'
   },
 
   //! TO HERE
@@ -910,7 +994,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to walk',
     // Infinitief
-    infin: 'lopen'
+    infin: 'lopen',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -931,7 +1017,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to have',
     // Infinitief
-    infin: 'hebben'
+    infin: 'hebben',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -952,7 +1040,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to go',
     // Infinitief
-    infin: 'gaan'
+    infin: 'gaan',
+    // Type
+    type: 'irregular'
   },
   {
     // TT
@@ -973,7 +1063,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to be',
     // Infinitief
-    infin: 'zijn'
+    infin: 'zijn',
+    // Type
+    type: 'irregular'
   },
 
   // REGULAR werkwoorden
@@ -997,7 +1089,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to answer',
     // Infinitief
-    infin: 'antwoorden'
+    infin: 'antwoorden',
+    // Type
+    type: 'regular'
   },
   {
     // TT
@@ -1018,7 +1112,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to wash up',
     // Infinitief
-    infin: 'afwassen'
+    infin: 'afwassen',
+    // Type
+    type: 'regular'
   },
   {
     // TT
@@ -1039,7 +1135,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to dry up',
     // Infinitief
-    infin: 'afdrogen'
+    infin: 'afdrogen',
+    // Type
+    type: 'regular'
   },
   {
     // TT
@@ -1060,7 +1158,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to turn on',
     // Infinitief
-    infin: 'aandoen'
+    infin: 'aandoen',
+    // Type
+    type: 'regular'
   },
   {
     // TT
@@ -1081,7 +1181,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to put on clothing',
     // Infinitief
-    infin: 'aantrekken'
+    infin: 'aantrekken',
+    // Type
+    type: 'regular'
   },
   {
     // TT
@@ -1102,7 +1204,9 @@ const werkwoordenList = [
     // Engels
     engels: 'to book',
     // Infinitief
-    infin: 'boeken'
+    infin: 'boeken',
+    // Type
+    type: 'regular'
   },
 ];
 

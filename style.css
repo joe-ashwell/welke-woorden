@@ -19,6 +19,21 @@ main {
   overflow-x: hidden;
 }
 
+/* -------------------- Navigation styling -------------------- */
+
+nav {
+  padding: 2rem;
+}
+
+nav a {
+  color: var(--myFontColour);
+  text-decoration: none;
+}
+
+nav i {
+  margin-left: 0.2rem;
+}
+
 /* -------------------- Font styling -------------------- */
 
 * {
@@ -32,7 +47,7 @@ p {
 
 h1 {
   text-align: center;
-  margin: 2rem;
+  margin: 1rem;
   font-size: 3rem;
   color: var(--myFontColour);
 }
@@ -44,7 +59,7 @@ h1 {
 @media (max-width: 767px) {
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
 }
@@ -155,3 +170,19 @@ button {
   color: #EBEBEB;
 }
 
+/* -------------------- Woordenlijst styling -------------------- */
+
+div.woorden-lijst {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+li {
+ list-style: none;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
