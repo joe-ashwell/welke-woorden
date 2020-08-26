@@ -22,16 +22,39 @@ main {
 /* -------------------- Navigation styling -------------------- */
 
 nav {
-  padding: 2rem;
+  padding: 1rem 0;
+  background-color: #e5e5e5;
 }
 
 nav a {
   color: var(--myFontColour);
   text-decoration: none;
+  background-color: #e5e5e5;
+  padding: 1rem;
+  margin: 0;
+}
+
+.active {
+  background-color: #fff;
 }
 
 nav i {
   margin-left: 0.2rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+  nav {
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  nav a {
+    width: 50%;
+  }
+
 }
 
 /* -------------------- Font styling -------------------- */
@@ -47,19 +70,30 @@ p {
 
 h1 {
   text-align: center;
-  margin: 1rem;
+  margin: 1.5rem;
   font-size: 3rem;
   color: var(--myFontColour);
 }
 
 .help {
   font-size: 19px;
+  display: inline-block;
+}
+
+.dutch {
+  font-size: 3rem;
+  box-shadow: inset 0 -1.2rem 0 #FF4F00;
 }
 
 @media (max-width: 767px) {
 
-  h1 {
+  h1,
+  .dutch {
     font-size: 1.5rem;
+  }
+
+  .dutch {
+    box-shadow: inset 0 -0.6rem 0 #FF4F00;
   }
 
 }
@@ -86,6 +120,15 @@ tr > td:first-of-type {
   min-width: 7rem;
 }
 
+@media only screen and (max-width: 767px) {
+
+  table {
+    margin: 0rem auto;
+    padding: 0 1rem;
+  }
+
+}
+
 /* -------------------- Icon styling -------------------- */
 
 .fa-question-circle {
@@ -107,10 +150,11 @@ button {
               transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
+  background-color: #e5e5e5;
 }
 
 .answerButton {
-  background: #292929;
+  background: #292929; 
   color: #ffffff;
 }
 
@@ -181,8 +225,35 @@ div.woorden-lijst {
 
 li {
  list-style: none;
+ padding: 0.3rem 0;
 }
 
 h2 {
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+  div.woorden-lijst {
+    justify-content: start;
+  }
+  
+  h2 {
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+
+  li {
+    width: 100vw;
+    padding-left: 2rem;
+  }
+
+  li:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
 }

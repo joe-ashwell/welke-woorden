@@ -40,7 +40,7 @@ const getWord = () => {
   randomMemory.push(werkwoordChoice);
 
   // Takes the random index number generated and uses it to select a word & set header
-  werkwoordHeader.innerHTML = `Werkwoord: ${werkwoordenList[werkwoordChoice].infin} <span class="help">(${werkwoordenList[werkwoordChoice].engels})</span>`;
+  werkwoordHeader.innerHTML = `Werkwoord: <span class="dutch"> ${werkwoordenList[werkwoordChoice].infin}</span> <span class="help"> (${werkwoordenList[werkwoordChoice].engels})</span>`;
 
   wordInput.forEach(item => {
 
