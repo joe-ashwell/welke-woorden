@@ -213,7 +213,7 @@ const werkwoordenList = [
     hijvtt: 'is gebleken',
     wijvtt: 'zijn gebleken',
     // Engels
-    engels: 'turn out',
+    engels: 'to turn out',
     // Infinitief
     infin: 'blijken'
   },
