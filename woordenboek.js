@@ -119,9 +119,6 @@ const werkwoordenList = [
   },
 
   // IRREGULAR werkwoorden
-
-  //! TO CHECK BY WINYA
-
   {
     // TT
     iktt: 'begin',
@@ -974,7 +971,790 @@ const werkwoordenList = [
     type: 'irregular'
   },
 
-  //! TO HERE
+  //! FROM HERE
+  {
+    // TT
+    iktt: 'spring',
+    jijtt: 'springt',
+    hijtt: 'springt',
+    wijtt: 'springen',
+    // OVT
+    ikovt: 'sprong',
+    jijovt: 'sprong',
+    hijovt: 'sprong',
+    wijovt: 'sprongen',
+    // VTT
+    ikvtt: 'heb gesprongen',
+    jijvtt: 'hebt gesprongen',
+    hijvtt: 'heeft gesprongen',
+    wijvtt: 'hebben gesprongen',
+    // Engels
+    engels: 'to jump',
+    // Infinitief
+    infin: 'springen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'sta',
+    jijtt: 'staat',
+    hijtt: 'staat',
+    wijtt: 'staan',
+    // OVT
+    ikovt: 'stond',
+    jijovt: 'stond',
+    hijovt: 'stond',
+    wijovt: 'stonden',
+    // VTT
+    ikvtt: 'heb gestaan',
+    jijvtt: 'hebt gestaan',
+    hijvtt: 'heeft gestaan',
+    wijvtt: 'hebben gestaan',
+    // Engels
+    engels: 'to stand',
+    // Infinitief
+    infin: 'staan',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'steek',
+    jijtt: 'steekt',
+    hijtt: 'steekt',
+    wijtt: 'steken',
+    // OVT
+    ikovt: 'stak',
+    jijovt: 'stak',
+    hijovt: 'stak',
+    wijovt: 'staken',
+    // VTT
+    ikvtt: 'ben/heb gestoken',
+    jijvtt: 'bent/hebt gestoken',
+    hijvtt: 'is/heeft gestoken',
+    wijvtt: 'zijn/hebben gestoken',
+    // Engels
+    engels: 'to stab',
+    // Infinitief
+    infin: 'steken',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'steel',
+    jijtt: 'steelt',
+    hijtt: 'steelt',
+    wijtt: 'stelen',
+    // OVT
+    ikovt: 'stal',
+    jijovt: 'stal',
+    hijovt: 'stal',
+    wijovt: 'stalen',
+    // VTT
+    ikvtt: 'heb gestolen',
+    jijvtt: 'hebt gestolen',
+    hijvtt: 'heeft gestolen',
+    wijvtt: 'hebben gestolen',
+    // Engels
+    engels: 'to steal',
+    // Infinitief
+    infin: 'stelen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'sterf',
+    jijtt: 'sterft',
+    hijtt: 'sterft',
+    wijtt: 'sterven',
+    // OVT
+    ikovt: 'stierf',
+    jijovt: 'stierf',
+    hijovt: 'stierf',
+    wijovt: 'stierven',
+    // VTT
+    ikvtt: 'ben gestorven',
+    jijvtt: 'bent gestorven',
+    hijvtt: 'is gestorven',
+    wijvtt: 'zijn gestorven',
+    // Engels
+    engels: 'to die',
+    // Infinitief
+    infin: 'sterven',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'stijg',
+    jijtt: 'stijgt',
+    hijtt: 'stijgt',
+    wijtt: 'stijgen',
+    // OVT
+    ikovt: 'steeg',
+    jijovt: 'steeg',
+    hijovt: 'steeg',
+    wijovt: 'stegen',
+    // VTT
+    ikvtt: 'ben gestegen',
+    jijvtt: 'bent gestegen',
+    hijvtt: 'is gestegen',
+    wijvtt: 'zijn gestegen',
+    // Engels
+    engels: 'to rise/increase',
+    // Infinitief
+    infin: 'stijgen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'trek',
+    jijtt: 'trekt',
+    hijtt: 'trekt',
+    wijtt: 'trekken',
+    // OVT
+    ikovt: 'trok',
+    jijovt: 'trok',
+    hijovt: 'trok',
+    wijovt: 'trokken',
+    // VTT
+    ikvtt: 'heb getrokken',
+    jijvtt: 'hebt getrokken',
+    hijvtt: 'heeft getrokken',
+    wijvtt: 'hebben getrokken',
+    // Engels
+    engels: 'to pull',
+    // Infinitief
+    infin: 'trekken',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'neem toe',
+    jijtt: 'neemt toe',
+    hijtt: 'neemt toe',
+    wijtt: 'nemen toe',
+    // OVT
+    ikovt: 'nam toe',
+    jijovt: 'nam toe',
+    hijovt: 'nam toe',
+    wijovt: 'namen toe',
+    // VTT
+    ikvtt: 'ben toegenomen',
+    jijvtt: 'bent toegenomen',
+    hijvtt: 'is toegenomen',
+    wijvtt: 'zijn toegenomen',
+    // Engels
+    engels: 'to increase',
+    // Infinitief
+    infin: 'toenemen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'val',
+    jijtt: 'valt',
+    hijtt: 'valt',
+    wijtt: 'vallen',
+    // OVT
+    ikovt: 'viel',
+    jijovt: 'viel',
+    hijovt: 'viel',
+    wijovt: 'vielen',
+    // VTT
+    ikvtt: 'ben gevallen',
+    jijvtt: 'bent gevallen',
+    hijvtt: 'is gevallen',
+    wijvtt: 'zijn gevallen',
+    // Engels
+    engels: 'to fall',
+    // Infinitief
+    infin: 'vallen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'vang',
+    jijtt: 'vangt',
+    hijtt: 'vangt',
+    wijtt: 'vangen',
+    // OVT
+    ikovt: 'ving',
+    jijovt: 'ving',
+    hijovt: 'ving',
+    wijovt: 'vingen',
+    // VTT
+    ikvtt: 'heb gevangen',
+    jijvtt: 'hebt gevangen',
+    hijvtt: 'heeft gevangen',
+    wijvtt: 'hebben gevangen',
+    // Engels
+    engels: 'to catch',
+    // Infinitief
+    infin: 'vangen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'vaar',
+    jijtt: 'vaart',
+    hijtt: 'vaart',
+    wijtt: 'varen',
+    // OVT
+    ikovt: 'voer',
+    jijovt: 'voer',
+    hijovt: 'voer',
+    wijovt: 'voeren',
+    // VTT
+    ikvtt: 'heb gevaren',
+    jijvtt: 'hebt gevaren',
+    hijvtt: 'heeft gevaren',
+    wijvtt: 'hebben gevaren',
+    // Engels
+    engels: 'to sail',
+    // Infinitief
+    infin: 'varen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'vecht',
+    jijtt: 'vecht',
+    hijtt: 'vecht',
+    wijtt: 'vechten',
+    // OVT
+    ikovt: 'vocht',
+    jijovt: 'vocht',
+    hijovt: 'vocht',
+    wijovt: 'vochten',
+    // VTT
+    ikvtt: 'heb gevochten',
+    jijvtt: 'hebt gevochten',
+    hijvtt: 'heeft gevochten',
+    wijvtt: 'hebben gevochten',
+    // Engels
+    engels: 'to fight',
+    // Infinitief
+    infin: 'vochten',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'verdwijn',
+    jijtt: 'verdwijn',
+    hijtt: 'verdwijn',
+    wijtt: 'verdwijnen',
+    // OVT
+    ikovt: 'verdween',
+    jijovt: 'verdween',
+    hijovt: 'verdween',
+    wijovt: 'verdwenen',
+    // VTT
+    ikvtt: 'ben verdwenen',
+    jijvtt: 'bent verdwenen',
+    hijvtt: 'is verdwenen',
+    wijvtt: 'zijn verdwenen',
+    // Engels
+    engels: 'to disappear',
+    // Infinitief
+    infin: 'verdwijnen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'vergeet',
+    jijtt: 'vergeet',
+    hijtt: 'vergeet',
+    wijtt: 'vergeten',
+    // OVT
+    ikovt: 'vergat',
+    jijovt: 'vergat',
+    hijovt: 'vergat',
+    wijovt: 'vergaten',
+    // VTT
+    ikvtt: 'ben/heb vergeten',
+    jijvtt: 'bent/hebt vergeten',
+    hijvtt: 'is/heeft vergeten',
+    wijvtt: 'zijn/hebben vergeten',
+    // Engels
+    engels: 'to forget',
+    // Infinitief
+    infin: 'vergeten',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'verkoop',
+    jijtt: 'verkoopt',
+    hijtt: 'verkoopt',
+    wijtt: 'verkopen',
+    // OVT
+    ikovt: 'verkocht',
+    jijovt: 'verkocht',
+    hijovt: 'verkocht',
+    wijovt: 'verkochten',
+    // VTT
+    ikvtt: 'heb verkocht',
+    jijvtt: 'hebt verkocht',
+    hijvtt: 'heeft verkocht',
+    wijvtt: 'hebben verkocht',
+    // Engels
+    engels: 'to sell',
+    // Infinitief
+    infin: 'verkopen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'verlies',
+    jijtt: 'verliest',
+    hijtt: 'verliest',
+    wijtt: 'verliezen',
+    // OVT
+    ikovt: 'verloor',
+    jijovt: 'verloor',
+    hijovt: 'verloor',
+    wijovt: 'verloren',
+    // VTT
+    ikvtt: 'heb verloren',
+    jijvtt: 'hebt verloren',
+    hijvtt: 'heeft verloren',
+    wijvtt: 'hebben verloren',
+    // Engels
+    engels: 'to lose',
+    // Infinitief
+    infin: 'verloren',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'verschijn',
+    jijtt: 'verschijnt',
+    hijtt: 'verschijnt',
+    wijtt: 'verschijnen',
+    // OVT
+    ikovt: 'verscheen',
+    jijovt: 'verscheen',
+    hijovt: 'verscheen',
+    wijovt: 'verschenen',
+    // VTT
+    ikvtt: 'ben verschenen',
+    jijvtt: 'bent verschenen',
+    hijvtt: 'is verschenen',
+    wijvtt: 'zijn verschenen',
+    // Engels
+    engels: 'to appear',
+    // Infinitief
+    infin: 'verschijnen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'versta',
+    jijtt: 'verstaat',
+    hijtt: 'verstaat',
+    wijtt: 'verstaan',
+    // OVT
+    ikovt: 'verstond',
+    jijovt: 'verstond',
+    hijovt: 'verstond',
+    wijovt: 'verstonden',
+    // VTT
+    ikvtt: 'heb verstaan',
+    jijvtt: 'hebt verstaan',
+    hijvtt: 'heeft verstaan',
+    wijvtt: 'hebben verstaan',
+    // Engels
+    engels: 'to understand/hear',
+    // Infinitief
+    infin: 'verstaan',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'vind',
+    jijtt: 'vindt',
+    hijtt: 'vindt',
+    wijtt: 'vinden',
+    // OVT
+    ikovt: 'vond',
+    jijovt: 'vond',
+    hijovt: 'vond',
+    wijovt: 'vonden',
+    // VTT
+    ikvtt: 'heb gevonden',
+    jijvtt: 'hebt gevonden',
+    hijvtt: 'heeft gevonden',
+    wijvtt: 'hebben gevonden',
+    // Engels
+    engels: 'to find/think',
+    // Infinitief
+    infin: 'vonden',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'vlieg',
+    jijtt: 'vliegt',
+    hijtt: 'vliegt',
+    wijtt: 'vliegen',
+    // OVT
+    ikovt: 'vloog',
+    jijovt: 'vloog',
+    hijovt: 'vloog',
+    wijovt: 'vlogen',
+    // VTT
+    ikvtt: 'heb gevlogen',
+    jijvtt: 'hebt gevlogen',
+    hijvtt: 'heeft gevlogen',
+    wijvtt: 'hebben gevlogen',
+    // Engels
+    engels: 'to fly',
+    // Infinitief
+    infin: 'vliegen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'vraag',
+    jijtt: 'vraagt',
+    hijtt: 'vraagt',
+    wijtt: 'vragen',
+    // OVT
+    ikovt: 'vroeg',
+    jijovt: 'vroeg',
+    hijovt: 'vroeg',
+    wijovt: 'vroegen',
+    // VTT
+    ikvtt: 'heb gevraagd',
+    jijvtt: 'hebt gevraagd',
+    hijvtt: 'heeft gevraagd',
+    wijvtt: 'hebben gevraagd',
+    // Engels
+    engels: 'to ask',
+    // Infinitief
+    infin: 'vragen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'was',
+    jijtt: 'wast',
+    hijtt: 'wast',
+    wijtt: 'wassen',
+    // OVT
+    ikovt: 'waste',
+    jijovt: 'waste',
+    hijovt: 'waste',
+    wijovt: 'wasten',
+    // VTT
+    ikvtt: 'heb gewassen',
+    jijvtt: 'hebt gewassen',
+    hijvtt: 'heeft gewassen',
+    wijvtt: 'hebben gewassen',
+    // Engels
+    engels: 'to wash',
+    // Infinitief
+    infin: 'wassen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'weeg',
+    jijtt: 'weegt',
+    hijtt: 'weegt',
+    wijtt: 'wegen',
+    // OVT
+    ikovt: 'woog',
+    jijovt: 'woog',
+    hijovt: 'woog',
+    wijovt: 'wogen',
+    // VTT
+    ikvtt: 'heb gewogen',
+    jijvtt: 'hebt gewogen',
+    hijvtt: 'heeft gewogen',
+    wijvtt: 'hebben gewogen',
+    // Engels
+    engels: 'to weigh',
+    // Infinitief
+    infin: 'wegen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'weet',
+    jijtt: 'weet',
+    hijtt: 'weet',
+    wijtt: 'weten',
+    // OVT
+    ikovt: 'wist',
+    jijovt: 'wist',
+    hijovt: 'wist',
+    wijovt: 'wisten',
+    // VTT
+    ikvtt: 'heb geweten',
+    jijvtt: 'hebt geweten',
+    hijvtt: 'heeft geweten',
+    wijvtt: 'hebben geweten',
+    // Engels
+    engels: 'to know',
+    // Infinitief
+    infin: 'weten',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'wijs',
+    jijtt: 'wijst',
+    hijtt: 'wijst',
+    wijtt: 'wijzen',
+    // OVT
+    ikovt: 'wees',
+    jijovt: 'wees',
+    hijovt: 'wees',
+    wijovt: 'wesen',
+    // VTT
+    ikvtt: 'heb gewezen',
+    jijvtt: 'hebt gewezen',
+    hijvtt: 'heeft gewezen',
+    wijvtt: 'hebben gewezen',
+    // Engels
+    engels: 'to point',
+    // Infinitief
+    infin: 'wijzen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'win',
+    jijtt: 'wint',
+    hijtt: 'wint',
+    wijtt: 'winnen',
+    // OVT
+    ikovt: 'won',
+    jijovt: 'won',
+    hijovt: 'won',
+    wijovt: 'wonnen',
+    // VTT
+    ikvtt: 'heb gewonnen',
+    jijvtt: 'hebt gewonnen',
+    hijvtt: 'heeft gewonnen',
+    wijvtt: 'hebben gewonnen',
+    // Engels
+    engels: 'to win',
+    // Infinitief
+    infin: 'winnen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'word',
+    jijtt: 'wordt',
+    hijtt: 'wordt',
+    wijtt: 'worden',
+    // OVT
+    ikovt: 'werd',
+    jijovt: 'werd',
+    hijovt: 'werd',
+    wijovt: 'werden',
+    // VTT
+    ikvtt: 'ben geworden',
+    jijvtt: 'bent geworden',
+    hijvtt: 'is geworden',
+    wijvtt: 'zijn geworden',
+    // Engels
+    engels: 'to become',
+    // Infinitief
+    infin: 'worden',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'zeg',
+    jijtt: 'zegt',
+    hijtt: 'zegt',
+    wijtt: 'zeggen',
+    // OVT
+    ikovt: 'zei',
+    jijovt: 'zei',
+    hijovt: 'zei',
+    wijovt: 'zeiden',
+    // VTT
+    ikvtt: 'heb gezegd',
+    jijvtt: 'hebt gezegd',
+    hijvtt: 'heeft gezegd',
+    wijvtt: 'hebben gezegd',
+    // Engels
+    engels: 'to say',
+    // Infinitief
+    infin: 'zeggen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'zie',
+    jijtt: 'ziet',
+    hijtt: 'ziet',
+    wijtt: 'zien',
+    // OVT
+    ikovt: 'zag',
+    jijovt: 'zag',
+    hijovt: 'zag',
+    wijovt: 'zagen',
+    // VTT
+    ikvtt: 'heb gezien',
+    jijvtt: 'hebt gezien',
+    hijvtt: 'heeft gezien',
+    wijvtt: 'hebben gezien',
+    // Engels
+    engels: 'to see',
+    // Infinitief
+    infin: 'zien',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'zing',
+    jijtt: 'zingt',
+    hijtt: 'zingt',
+    wijtt: 'zingen',
+    // OVT
+    ikovt: 'zong',
+    jijovt: 'zong',
+    hijovt: 'zong',
+    wijovt: 'zongen',
+    // VTT
+    ikvtt: 'heb gezongen',
+    jijvtt: 'hebt gezongen',
+    hijvtt: 'heeft gezongen',
+    wijvtt: 'hebben gezongen',
+    // Engels
+    engels: 'to sing',
+    // Infinitief
+    infin: 'zingen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'zit',
+    jijtt: 'zit',
+    hijtt: 'zit',
+    wijtt: 'zitten',
+    // OVT
+    ikovt: 'zat',
+    jijovt: 'zat',
+    hijovt: 'zat',
+    wijovt: 'zaten',
+    // VTT
+    ikvtt: 'heb gezeten',
+    jijvtt: 'hebt gezeten',
+    hijvtt: 'heeft gezeten',
+    wijvtt: 'hebben gezeten',
+    // Engels
+    engels: 'to sit',
+    // Infinitief
+    infin: 'zitten',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'zoek',
+    jijtt: 'zoekt',
+    hijtt: 'zoekt',
+    wijtt: 'zoeken',
+    // OVT
+    ikovt: 'zocht',
+    jijovt: 'zocht',
+    hijovt: 'zocht',
+    wijovt: 'zochten',
+    // VTT
+    ikvtt: 'heb gezocht',
+    jijvtt: 'hebt gezocht',
+    hijvtt: 'heeft gezocht',
+    wijvtt: 'hebben gezocht',
+    // Engels
+    engels: 'to search',
+    // Infinitief
+    infin: 'zoeken',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'zwem',
+    jijtt: 'zwemt',
+    hijtt: 'zwemt',
+    wijtt: 'zwemmen',
+    // OVT
+    ikovt: 'zwom',
+    jijovt: 'zwom',
+    hijovt: 'zwom',
+    wijovt: 'zwommen',
+    // VTT
+    ikvtt: 'heb gezwommen',
+    jijvtt: 'hebt gezwommen',
+    hijvtt: 'heeft gezwommen',
+    wijvtt: 'hebben gezwommen',
+    // Engels
+    engels: 'to swim',
+    // Infinitief
+    infin: 'zemmen',
+    // Type
+    type: 'irregular'
+  },
+  {
+    // TT
+    iktt: 'zwijg',
+    jijtt: 'zwijgt',
+    hijtt: 'zwijgt',
+    wijtt: 'zwijgen',
+    // OVT
+    ikovt: 'zweeg',
+    jijovt: 'zweeg',
+    hijovt: 'zweeg',
+    wijovt: 'zwegen',
+    // VTT
+    ikvtt: 'heb gezwegen',
+    jijvtt: 'hebt gezwegen',
+    hijvtt: 'heeft gezwegen',
+    wijvtt: 'hebben gezwegen',
+    // Engels
+    engels: 'to keep silent',
+    // Infinitief
+    infin: 'zwijgen',
+    // Type
+    type: 'irregular'
+  },
+   //! TO HERE
   {
     // TT
     iktt: 'loop',
