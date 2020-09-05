@@ -232,6 +232,14 @@ h2 {
   font-size: 1.5rem;
 }
 
+li {
+  width: 30vw;
+}
+
+li:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
 @media only screen and (max-width: 767px) {
 
   div.woorden-lijst {
