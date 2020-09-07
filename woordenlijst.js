@@ -22,4 +22,4 @@ werkwoordenList.forEach(verb => {
 
   }
 
-})
+});
